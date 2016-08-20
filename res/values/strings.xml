@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="app_name">MB\'s Recipes</string>-->
+    <string name="app_name">How to Feed Yourself</string>
+    <string name="edit_message">Find a recipe...</string>
+    <string name="button_clear">Clear all</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_add">Add to menu plan</string>
+    <string name="button_add_alternate">Buy a hard copy of the book</string>
+    <string name="button_generate_list">Add groceries</string>
+    <string name="button_generate_random">Add random</string>
+    <string name="check_meat">Meat</string>
+    <string name="check_fish">Fish</string>
+    <string name="action_home">Recipes</string>
+   	<string name="action_recipes">Menu Plan</string>
+	<string name="action_list">Shopping</string>
+	<string name="add_list_item">Add item...</string>
+	<string name="title_activity_display_message"> </string>
+	<string name="title_activity_display_recipes"> </string>
+	<string name="title_activity_display_shopping_list"> </string>
+    <string name="backtext1">Sunday</string>
+    <string name="backtext2">Monday</string>
+    <string name="backtext3">Tuesday</string>
+    <string name="backtext4">Wednesday</string>
+    <string name="backtext5">Thursday</string>
+    <string name="backtext6">Friday</string>
+    <string name="backtext7">Saturday</string>
+    <string name="remove">Remove</string>
+    <!--<string name="button_send">Go</string>
+    <string name="hello_world">Hello world!</string>-->
+</resources>

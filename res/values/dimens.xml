@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin sizes -->
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="margin_left">7dp</dimen>
+    <dimen name="margin_right">7dp</dimen>
+    
+    <!-- text sizes -->
+    <!-- use sp for user controlled text sizes, or dp for fixed sizes -->
+    <dimen name="very_small_text_size">14sp</dimen>
+    <dimen name="small_text_size">16sp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="large_text_size">20sp</dimen>
+	<dimen name="weekday_text_size">25dp</dimen>    
+	<dimen name="schedule_text_size">18sp</dimen>
+	
+</resources>

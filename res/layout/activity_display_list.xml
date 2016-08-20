@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout android:id="@+id/list_button_container"
+    		      android:layout_width="match_parent"
+	              android:layout_height="wrap_content"
+			      android:orientation="horizontal" >
+
+		<!-- This is a dummy to stop the focus going to EditText -->
+		<LinearLayout
+    		android:focusable="true"
+    		android:focusableInTouchMode="true"
+   			android:layout_width="0px"
+   			android:layout_height="0px"/>
+
+ 		<!-- The ids of nextFocusUp and nextFocusLeft stop the dummy from getting focus again -->
+		<EditText android:id="@+id/add_list_item"
+				  android:nextFocusUp="@id/add_list_item"
+		   		  android:nextFocusLeft="@id/add_list_item"
+		   		  android:inputType="textNoSuggestions"
+        		  android:hint="@string/add_list_item"
+				  android:imeOptions="actionDone"
+				  android:layout_width="0dip"
+	  	    	  android:layout_height="wrap_content"
+				  android:layout_weight="1"
+				  android:layout_gravity="center_vertical"
+	       	      android:layout_marginRight="5dp" />
+	       	      <!--android:layout_toRightOf="@+id/button_clear"-->
+
+        <Button android:id="@+id/button_clear"
+       		    android:text="@string/button_clear"
+    		    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+		        android:textSize="@dimen/medium_text_size"
+    			android:gravity="center_vertical|center_horizontal"
+        	   	android:layout_marginTop="5dp"
+        	   	android:layout_marginBottom="5dp"
+	       	    android:layout_marginRight="5dp" />
+
+        <Button android:id="@+id/button_edit"
+       		    android:text="@string/button_edit"
+    		    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+		        android:textSize="@dimen/medium_text_size"
+    			android:gravity="center_vertical|center_horizontal"
+    	   	    android:layout_marginTop="5dp"
+        	   	android:layout_marginBottom="5dp"
+	       	    android:layout_marginRight="5dp" />
+				<!--android:gravity="right"-->
+				<!--android:layout_alignParentRight="true"-->
+
+	</LinearLayout>
+	
+	<!-- listSelector is to prevent list highlighting -->
+    <ListView android:id="@+id/shopping_list_view"
+		      android:layout_width="fill_parent"
+       		  android:layout_height="wrap_content"
+       		  android:listSelector="@color/transparent"
+       		  android:descendantFocusability="beforeDescendants"
+       		  android:layout_below="@+id/list_button_container" />
+       		  <!--android:layout_weight="1"-->
+    
+</RelativeLayout>

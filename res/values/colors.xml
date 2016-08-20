@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- orange -->
+    <color name="color1">#FFAC30</color>
+    <color name="color1_pale">#FFDAA2</color>   <!-- used in recipe text -->
+    <color name="color1_light">#FFB445</color>  <!-- used in box_color1 -->
+    <!--<color name="color1_dark">#E69B2B</color>-->
+
+    <!-- blue -->
+    <color name="color2">#99CCFF</color>
+    <color name="color2_pale">#D1E8FF</color>   <!-- used in recipe text -->
+    <color name="color2_light">#A3D1FF</color>  <!-- used in box_color2 -->
+    <color name="color2_dark">#8AB8E6</color>   <!-- used for clicked boxes -->
+
+	<!-- yellow -->
+	<!--<color name="color3">#ffff66</color>
+	<color name="color3_pale">#FFFFC2</color>
+	<color name="color3_light">#FFFFC2</color>-->
+		
+	<!-- blue -->
+	<!--<color name="color2">#50cfb8</color>
+	<color name="color2_pale">#A8E7DC</color>
+	<color name="color2_light">#A8E7DC</color>
+	<color name="color2_dark">#50cfb8</color>-->
+			
+	<!-- green -->
+	<!--<color name="color4">#73d900</color>
+	<color name="color4_pale">#C7F099</color>-->
+	
+	<!-- orange -->
+	<!--<color name="color4">#e6aa17</color>
+	<color name="color4_pale">#F0CC74</color>-->
+	
+	<!-- dark orange -->
+	<!--<color name="color5">#e66722</color>
+	<color name="color5_pale">#F0A47A</color>-->
+	
+    <!-- other colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#C0C0C0</color>
+	<color name="dark_gray">#B0B0B0</color>
+	<color name="black">#000000</color>
+	<color name="default_background">#FFEEEEEE</color>
+	
+	<!-- some phones don't use the android Color.transparent correctly -->
+	<!--<color name="transparent">#ffffffff</color>-->
+    <color name="transparent">@android:color/transparent</color>
+
+</resources>

@@ -1,0 +1,46 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actionBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/home_screen"
+        android:text="@string/action_home"
+        android:textSize="@dimen/medium_text_size"
+		android:textColor="@color/dark_gray"
+        android:background="@color/transparent"
+		android:paddingLeft="20dp"
+		android:paddingRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/recipe_list"
+        android:text="@string/action_recipes"
+        android:textSize="@dimen/medium_text_size"
+		android:textColor="@color/dark_gray"
+        android:background="@color/transparent"      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/shopping_list"
+        android:text="@string/action_list"
+        android:textSize="@dimen/medium_text_size"
+		android:textColor="@color/dark_gray"
+        android:background="@color/transparent"
+		android:paddingLeft="0dp"
+		android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
