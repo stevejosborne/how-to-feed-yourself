@@ -41,27 +41,7 @@ import android.widget.ExpandableListView;
 
 To do:
 
-Fix out-of-bounds exception. Looks like mIngredients is not guaranteed to have size > 0...:
-01-26 23:03:14.539: E/AndroidRuntime(10259): FATAL EXCEPTION: main
-01-26 23:03:14.539: E/AndroidRuntime(10259): Process: com.example.cookbookapp, PID: 10259
-01-26 23:03:14.539: E/AndroidRuntime(10259): java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at java.util.ArrayList.get(ArrayList.java:308)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at com.example.cookbookapp.Ingredients.processList(Ingredients.java:157)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at com.example.cookbookapp.DisplayRecipeListActivity$1$1.run(DisplayRecipeListActivity.java:183)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at android.os.Handler.handleCallback(Handler.java:739)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at android.os.Handler.dispatchMessage(Handler.java:95)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at android.os.Looper.loop(Looper.java:135)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at android.app.ActivityThread.main(ActivityThread.java:5221)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at java.lang.reflect.Method.invoke(Native Method)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at java.lang.reflect.Method.invoke(Method.java:372)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
-01-26 23:03:14.539: E/AndroidRuntime(10259): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
-
 Some FIXMEs need addressing.
-Button drag seems sluggish.
-Improve overall design: Images/Text/Fonts/Colors.
-Grab screenshots.
 Additional features / minor changes:
 	Improve searching of recipes/ingredients.
     Add separate utility to add/edit recipes.
@@ -69,9 +49,12 @@ Additional features / minor changes:
        When sorting remove keywords like: large, small, sliced, diced.
        Allow the list order to be edited by user.
     In menu plan section:
+	   Box color changes paler after icon has been on it.
+       Button drag seems sluggish.
        Need to add space somewhere for desserts.
        Should not be an add button on credits page.
     Overall display:
+       Improve design: images/text/fonts/colors.
        Make \title text a little bigger.
        Save the text scale factor in the recipes page.
        Make alternate paragraphs white and blue in recipe page.

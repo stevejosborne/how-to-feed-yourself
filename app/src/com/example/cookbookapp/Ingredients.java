@@ -153,6 +153,10 @@ public class Ingredients {
 
 	public void processList () {
 
+		if (mIngredients.size() == 0) {
+			return;
+		}
+		
 		ArrayList<Ingredient> holderList = new ArrayList<Ingredient>();
 		holderList.add(mIngredients.get(0));
 
